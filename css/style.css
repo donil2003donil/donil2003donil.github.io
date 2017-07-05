@@ -65,7 +65,7 @@ height: 65px;
 .line{
 	
 	display:block;
-	width:345px;
+	width:338px;
 	height:auto;
 	overflow: hidden;
 	margin-top: -15px;
@@ -76,11 +76,14 @@ height: 65px;
 	width:1200px;
 	display: inline-block;
 	overflow: hidden;
-	left: 0;
+	right: 0;
+	transition-duration: 2s;
 }
 .ul_line li{
-	width: 400px;
+	width: 338px;
+	height: 231;
 	float: left;	
+    list-style: none;
 }
 .nav{
 	float: left;
