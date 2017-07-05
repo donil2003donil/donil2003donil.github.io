@@ -22,7 +22,9 @@ margin-left: 40px;
 .a_menu{
 color: black;
 width:100%;
+transition-duration: 0.25s;
 }	
+.a_menu:hover{color:red;}
 ul{
 position: absolute;
 display: inline-block;
