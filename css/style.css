@@ -4,7 +4,7 @@ body{
 }
 header{
 width:100%;
-height: auto;
+height: 435px;
 background-color: #eee;
 padding: 0 auto;
 
@@ -63,13 +63,39 @@ height: 65px;
 	margin-top: 31px;
 }
 .line{
-	display: inline-block;
+	
+	display:block;
 	width:345px;
-	height:235px;
+	height:auto;
 	overflow: hidden;
-	float: left;
+	margin-top: -15px;
 	margin-left:140px;
 }
+.ul_line{
+	position: relative;
+	width:1200px;
+	display: inline-block;
+	overflow: hidden;
+}
+.ul_line li{
+	width: 400px;
+	float: left;	
+}
+.nav{
+	float: left;
+	margin-top: 230px;
+}
+.slider{
+	float:right;
+	position: absolute;
+	margin-left: 400px;
+}
 .header-left_info{
-
+	float: left;
+	margin-top: 40px;
+}
+.header-info{
+	position: relative;
+	height: 435px;
+	width: 100%;
 }
