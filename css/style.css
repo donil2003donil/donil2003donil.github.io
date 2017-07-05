@@ -76,6 +76,7 @@ height: 65px;
 	width:1200px;
 	display: inline-block;
 	overflow: hidden;
+	left: 0;
 }
 .ul_line li{
 	width: 400px;
