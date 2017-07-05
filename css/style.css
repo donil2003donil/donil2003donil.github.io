@@ -115,7 +115,7 @@ height: 65px;
 .img{}
 .redbas{
 	display: block;
-	position: absolut;
+	position: absolute;
 	float: left;
 	width: 20px;
 	height: auto;
