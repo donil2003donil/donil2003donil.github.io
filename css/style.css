@@ -24,6 +24,13 @@ color: black;
 width:100%;
 transition-duration: 0.25s;
 }	
+.basket_a{
+	color: black;
+}
+.basket_a:hover{
+color:red;
+}
+
 .a_menu:hover{color:red;}
 ul{
 position: absolute;
@@ -104,4 +111,18 @@ height: 65px;
 	position: relative;
 	height: 435px;
 	width: 100%;
+}
+.img{}
+.redbas{
+	display: block;
+	position: absolute;
+	float: left;
+	width: 20px;
+	height: auto;
+	margin-top: 2px;
+	opacity: 0
+}
+.qwerasd:hover .redbas{
+	opacity: 1;
+
 }
