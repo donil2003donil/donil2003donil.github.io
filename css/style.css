@@ -29,7 +29,7 @@ header{
 }
 .container{
     display: block;
-    width:880px;
+    width:960px;
     height: 436px;
     margin: 0 auto;
     padding-top:27px;
@@ -59,16 +59,31 @@ h1{
     right: 0;
     padding: 0;
 }
-.slider{
+.line{
+    display: block;
     width:338px;
+    height: 231px;
     overflow: hidden;
 }
 .ul_slider li{
     display: block;
-    float: left;;
+    float: left;
+    top: 0;
     
 }
 .ul_top_menu li:last-child{
     margin-right: 0;
+    margin-left:48px;
     
+}
+.slider{
+float: right
+}
+.main_body{
+    width:880px;
+    display: block;
+}
+.frame{
+    display: block;
+    top:0;
 }
