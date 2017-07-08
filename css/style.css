@@ -22,7 +22,7 @@ body{
 }
 header{
     width:100%;
-    height: auto;
+    height: 436px;
     display: block;
     background: #eee;
     
@@ -38,7 +38,8 @@ header{
 h1{
     width:250px;
     height: auto;
-    margin-top: 0;
+    margin-top: 70px;
+    padding: 0;
 }
 .ul_top_menu{
     display: block;
@@ -56,7 +57,7 @@ h1{
     width:1014px;
     height: 231px;
     overflow: hidden;
-    right: 0;
+    margin-top:0px;
     padding: 0;
 }
 .line{
@@ -64,11 +65,13 @@ h1{
     width:338px;
     height: 231px;
     overflow: hidden;
+    float: right;
+    margin-top: 30px;
+    
 }
 .ul_slider li{
     display: block;
     float: left;
-    top: 0;
     
 }
 .ul_top_menu li:last-child{
@@ -77,13 +80,40 @@ h1{
     
 }
 .slider{
-float: right
+float: right;
+    width:500px;
 }
 .main_body{
     width:880px;
+    height:436px;
     display: block;
 }
 .frame{
-    display: block;
     top:0;
+    position: relative;
+}
+.top{
+    height: 60px;
+}
+.left_info{
+    width:370px; 
+    margin-right:0;
+    float:left;
+}
+.main_header{
+    height: 300px
+}
+.button_aboutus{
+    display: block;
+    width:240px;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    background: #fb565a;
+    color: white;
+    border-radius: 5px;
+}
+form{
+   margin-top:235px;
+    float:left;
 }
