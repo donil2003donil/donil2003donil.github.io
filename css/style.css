@@ -1,130 +1,74 @@
 html{font-family: 'Roboto Mono', monospace;}
-body{
-	margin:0;
+.ul_top_menu li{
+    display: inline-block;
+    margin-right: 45px;
+    float: left;
+    
 }
-header{
-width:100%;
-height: 435px;
-background-color: #eee;
-padding: 0 auto;
-overflow: hidden;
+li{
+ list-style: none;
 }
 a{
-text-decoration: none;
+    text-decoration: none;
 }
-.menu li{
-list-style: none;
-display: inline-block;
-text-align:left;
-margin-left: 40px;
-
+.ul_top_menu> li > a{
+    color: black;
 }
-.a_menu{
-color: black;
-width:100%;
-transition-duration: 0.25s;
-}	
-.basket_a{
-	color: black;
+body{
+    display: block;
+    margin:0;
+    padding: 0;
+    
 }
-.basket_a:hover{
-color:red;
-}
-.basket_a:hover .redbas{
-	opacity: 1;
-}
-.a_menu:hover{color:red;}
-ul{
-position: absolute;
-display: inline-block;
-width:65%;
-padding-left: 0;
-margin-top: 55px
+header{
+    width:100%;
+    height: auto;
+    display: block;
+    background: #eee;
+    
 }
 .container{
-
-margin:0 auto;
-width:960px;
+    display: block;
+    width:880px;
+    height: 436px;
+    margin: 0 auto;
+    padding-top:27px;
+    position: relative;
 }
-
-.menu li:last-child{
-	margin-left:55px;
+h1{
+    width:250px;
+    height: auto;
+    margin-top: 0;
+}
+.ul_top_menu{
+    display: block;
+    float: left;
+   width:560px;
+     padding-left: 0px;
+    margin-left:180px;
 }
 .logo{
-margin-right: 0;
-margin-right:130px;
-margin-top: 30px;
-}	
-.title{
-width:250px;
-height: 65px;
+    float: left;
+    width:140px;
+    height: 60px;
 }
-.p_info{
-	color: #283136;
-}
-.button_info{
-	display: block;
-	width:240px;
-	height: 30px;
-	background-color: #fb565a;
-	border-radius: 5px;
-	text-align: center;
-	color: white;
-	padding-top: 10px;
-	margin-top: 31px;
-}
-.line{
-	
-	display:block;
-	width:338px;
-	height:auto;
-	overflow: hidden;
-	margin-top: -15px;
-	margin-left:140px;
-}
-.ul_line{
-	position: relative;
-	width:1200px;
-	display: inline-block;
-	overflow: hidden;
-	right: 0;
-	transition-duration: 1s;
-}
-.ul_line li{
-	width: 338px;
-	height: 231;
-	float: left;	
-    list-style: none;
-}
-.nav{
-	float: left;
-	margin-top: 230px;
+.ul_slider{
+    width:1014px;
+    height: 231px;
+    overflow: hidden;
+    right: 0;
+    padding: 0;
 }
 .slider{
-	float:right;
-	position: absolute;
-	margin-left: 400px;
+    width:338px;
+    overflow: hidden;
 }
-.header-left_info{
-	float: left;
-	margin-top: 40px;
+.ul_slider li{
+    display: block;
+    float: left;;
+    
 }
-.header-info{
-	position: relative;
-	height: 435px;
-	width: 100%;
-}
-.img{}
-.redbas{
-	display: block;
-	position: absolute;
-	float: left;
-	width: 20px;
-	height: auto;
-	margin-top: 2px;
-	opacity: 0
-}
-.qwerasd:hover .redbas{
-	opacity: 1;
-
+.ul_top_menu li:last-child{
+    margin-right: 0;
+    
 }
