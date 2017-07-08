@@ -58,7 +58,7 @@ h1{
     height: 230px;
     overflow: hidden;
     margin-top:0px;
-    padding-right: 15px;
+    
     transition-duration: 3s;
     position: relative
 }
