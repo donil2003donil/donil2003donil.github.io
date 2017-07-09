@@ -87,7 +87,7 @@ float: right;
 }
 .main_body{
     width:880px;
-    height:436px;
+    height:auto;
     display: block;
 }
 .frame{
