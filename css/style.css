@@ -24,7 +24,6 @@ header{
     width:100%;
     display: block;
     background: #eee;
-    overflow: hidden;
 }
 .container{
     display: block;
