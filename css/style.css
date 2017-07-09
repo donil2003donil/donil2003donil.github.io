@@ -22,7 +22,7 @@ body{
 }
 header{
     width:100%;
-    height: 436px;
+    height: auto;
     display: block;
     background: #eee;
     overflow: hidden;
