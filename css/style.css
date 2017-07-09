@@ -123,3 +123,12 @@ form{
    margin-top:235px;
     float:left;
 }
+.basket_ico::before{
+content:  url(../img/basket.png);;
+display: block;
+width:17px;
+position: relative;
+height: 15px;
+    float: left;
+    left: -10px;
+}
