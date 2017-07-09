@@ -40,7 +40,7 @@
                 </ul>
                 </div>
                 <form action="">
-                    <input type="radio" name="nf" id="f" onclick="func()">
+                    <input type="radio" name="nf" id="f" onclick="func()" checked>
                     <input type="radio" name="nf" id="f" onclick="funcc()">
                     <input type="radio" name="nf" id="f" onclick="funccc()">
                 </form>
@@ -52,19 +52,19 @@
 function func(){ 
 var line = document.getElementsByClassName('ul_slider'); 
 style = line[0].style 
-style.right = 0+"px"; 
+style.left = 0+"px"; 
 
 } 
 function funcc(){ 
 var line = document.getElementsByClassName('ul_slider'); 
 style = line[0].style 
-style.right = 338+"px"; 
+style.left = -338+"px"; 
 
 } 
 function funccc(){ 
 var line = document.getElementsByClassName('ul_slider'); //ul_line надо назвать список с картинками с вслайдере 
 style = line[0].style 
-style.right = 677+"px"; 
+style.left = -677+"px"; 
 } 
 
 </script>
