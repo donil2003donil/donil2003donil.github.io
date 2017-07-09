@@ -23,7 +23,12 @@ body{
 header{
     width:100%;
     display: block;
-    background: #eee;
+    background: #eee;  
+}
+.clearfix::after{
+    content: " ";
+    display: table;
+    clear: both;
 }
 .container{
     display: block;
@@ -87,6 +92,7 @@ float: right;
 .main_body{
     width:880px;
     display: block;
+    position: relative
 }
 .frame{
     top:0;
