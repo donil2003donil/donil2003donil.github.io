@@ -119,16 +119,35 @@ float: right;
     color: white;
     border-radius: 5px;
 }
-form{
+.nav{
    margin-top:235px;
     float:left;
 }
 .basket_ico::before{
-content:  url(../img/basket.png);;
+content:  url(../img/basket.png);
 display: block;
 width:17px;
 position: relative;
 height: 15px;
     float: left;
-    left: -10px;
+    right: 5px;
+}
+.nav section{
+    background: white;
+    display: block;
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    border: 2px solid red ;
+    float: left;
+    margin-right: 10px;
+}
+.nav section:hover{
+    cursor: pointer
+}
+.ul_top_menu li a:hover{
+    color:red
+}
+.basket_ico:hover::before{
+    content:  url(../img/basket-red.png);
 }
