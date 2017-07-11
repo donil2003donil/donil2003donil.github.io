@@ -119,7 +119,7 @@ float: right;
     color: white;
     border-radius: 5px;
 }
-.nav{
+form{
    margin-top:235px;
     float:left;
 }
@@ -132,18 +132,7 @@ height: 15px;
     float: left;
     right: 5px;
 }
-.nav section{
-    background: white;
-    display: block;
-    width:10px;
-    height:10px;
-    border-radius: 50%;
-    border: 2px solid red ;
-    float: left;
-    margin-right: 10px;
-}
-.nav section:hover{
-    cursor: pointer
+ursor: pointer
 }
 .ul_top_menu li a:hover{
     color:red
