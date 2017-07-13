@@ -26,7 +26,7 @@ a:active, a:visited, a:focus {
 	z-index: 1;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.2);
 }
 .main h1 {
 	margin-bottom: 1.4rem;
@@ -69,7 +69,10 @@ a:active, a:visited, a:focus {
 	border-color: #fff;
 }
 /*Секция с портфолио*/
+
 .portfolio {
+	background-image: url(../img/section_bg.jpg);
+	background-size: contain;
 	padding: 10rem 0px;
 	text-align: center;
 }
@@ -85,6 +88,7 @@ a:active, a:visited, a:focus {
 	box-shadow: 0px 4px 29px 0px rgba(87, 92, 97, 0.54);
 }
 .portfolio a {
+	font-weight: bold;
 	display: block;
 	margin: 2rem auto 6rem;
 	color: #333;
