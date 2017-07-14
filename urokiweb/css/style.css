@@ -7,6 +7,7 @@ html {
 a:active, a:visited, a:focus {
 	text-decoration: none;
 	outline: none;
+    
 }
 .wrapper {
 	display:table-cell;
@@ -66,9 +67,15 @@ a:active, a:visited, a:focus {
 	margin-left: -25px;
 	transition: 0.2s;
 }
+.main-down:visted,.main-down:focus,.main-down:active{
+	color: white;
+}
 .main-down:hover {
-	color: #fff;
-	border-color: #fff;
+	color: white;
+	border-color:white;
+}
+.main-down a{
+	color: white;
 }
 /*Секция с портфолио*/
 
