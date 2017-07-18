@@ -90,6 +90,9 @@ h1{
 	line-height: 50px;
 	float: left;
 }
+.button-header:hover{
+	background-color: #e74246
+}
 .slider{
 	width: 730px;
 	margin-right: 0;
