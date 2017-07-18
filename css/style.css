@@ -4,6 +4,7 @@ font-family: 'Roboto', sans-serif;
 }
 body{
 	margin: 0;
+
 	
 }
 li{
@@ -22,6 +23,7 @@ margin: 0 auto;
 a{
 	color: black;
 	text-decoration:none;
+	transition-duration: 0.5s;
 }
 header{
 	width:100%;
@@ -43,6 +45,7 @@ header{
 }
 .menu_ul a:hover{
 color: red;
+transition-duration: 0.5s;
 }
 .menu_ul{
 	display: inline-block;
@@ -89,9 +92,11 @@ h1{
 	text-align: center;
 	line-height: 50px;
 	float: left;
+	transition-duration: 0.5s
 }
 .button-header:hover{
-	background-color: #e74246
+	background-color: #e74246;
+	transition-duration: 0.5s;
 }
 .slider{
 	width: 730px;
