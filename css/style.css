@@ -3,7 +3,7 @@ margin: 0
 }
 header{
 	width: auto;
-	height: auto;
+	
 	background-color: #eeeeee;
 	font-family: 'Roboto', sans-serif;
 }
@@ -13,7 +13,7 @@ header{
 }
 .menu{
 	width: 65%;
-	height: auto;
+	
 	margin-right: 0;
 	display: inline-block;
 	margin-left: 160px;
@@ -58,7 +58,7 @@ a{
 .button_header{
 	display: block;
 	width: 240px;
-	height: auto;
+	
 	line-height: 35px;
 	background-color: #fb565a;
 	text-align: center;
@@ -70,4 +70,20 @@ a{
 .content{
 	padding-bottom: 70px;
 	margin-top: 52px;
+}
+.right_slider{
+   width: 500px;
+	float: right;
+}
+.right_slider img{
+	float:right;
+}
+.right_slider form{
+	width: 100px;
+	float: left;
+	margin-top: 200px;
+}
+.left_info{
+	width: 380px;
+	float: left;
 }
