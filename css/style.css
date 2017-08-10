@@ -87,3 +87,30 @@ a{
 	width: 380px;
 	float: left;
 }
+.information{
+	width: auto;
+}
+.order{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 100px;
+}
+.order_button{
+	margin-top: 15px;
+	width: 60%;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+	display: block;
+	border-radius: 5px;
+}
+.web .order_button{
+	background-color: #fb565a;
+
+}
+.app .order_button{
+	background-color: #00ca74
+}
+.present .order_button{
+	background-color: #efc84a
