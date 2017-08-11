@@ -157,15 +157,23 @@ margin-top: 10px;
 	justify-content: space-between;
 }
 .network a{
-	display: block;
-	width: 100px;
-	height: 100px;
+	float: left;
+	display:inline-block;
+	width: 60px;
+	height: 60px;
 	background-color:gray;
     border-radius: 50%;
+    margin-right: 30px;
 }
-.form{
-	height: 240px;
-	width: 250px;
-	background-color: white;
-	
+.gofriend{
+	float: right;
 }
+.network{
+	float: left;
+	margin-top: 20px
+}
+.footer{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
