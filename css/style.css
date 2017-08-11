@@ -156,6 +156,10 @@ margin-top: 10px;
 	display: flex;
 	justify-content: space-between;
 }
+.network a:hover{
+	background-color: #fb565a;
+	transition-duration: 0.3s
+}
 .network a{
 	position: relative;
 	float: left;
