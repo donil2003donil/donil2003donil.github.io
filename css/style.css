@@ -156,3 +156,16 @@ margin-top: 10px;
 	display: flex;
 	justify-content: space-between;
 }
+.network a{
+	display: block;
+	width: 100px;
+	height: 100px;
+	background-color:gray;
+    border-radius: 50%;
+}
+.form{
+	height: 240px;
+	width: 250px;
+	background-color: white;
+	
+}
