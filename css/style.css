@@ -157,6 +157,7 @@ margin-top: 10px;
 	justify-content: space-between;
 }
 .network a{
+	position: relative;
 	float: left;
 	display:inline-block;
 	width: 60px;
@@ -164,6 +165,14 @@ margin-top: 10px;
 	background-color:gray;
     border-radius: 50%;
     margin-right: 30px;
+}
+.network a::before{
+	position: relative;
+	content: "";
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	
 }
 .gofriend{
 	float: right;
@@ -176,4 +185,12 @@ margin-top: 10px;
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
-
+.inst{
+	background: url(../img/inst.png) no-repeat center;
+}
+.vk{
+background: url(../img/vk.png) no-repeat center;
+}
+.fb{
+background: url(../img/fb.png) no-repeat center;
+}
