@@ -11,211 +11,228 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto&display=swap" rel="stylesheet">
-
+    <!-- Styles   -->
     <link rel="stylesheet" href="assets/css/Normalize.css">
+    <link rel="stylesheet" href="assets/fonts/fa/css/all.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/media.css">
 
     <title>Главная</title>
 </head>
-<body>
-    <header class="header">
-        <div class="header__wrapper wrapper">
-            <div class="header__logo">
-                <a href="/">
-                    <img src="assets/img/logo.svg" alt="logo">
-                </a>
-            </div>
-            <div class="header__center">
-                <div class="header__geo">
-                    <img src="assets/img/geo.svg" alt="geolocation">
-                    <p class="header__city-title">Воронеж</p>
-                </div>
-                <nav class="nav">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#" class="nav__item-link nav__item-link_active">Семена</a></li>
-                        <li class="nav__item"><a href="#" class="nav__item-link">О нас</a></li>
-                        <li class="nav__item"><a href="#" class="nav__item-link">Завод</a></li>
-                        <li class="nav__item"><a href="#" class="nav__item-link">Новости</a></li>
-                        <li class="nav__item"><a href="#" class="nav__item-link">Контакты</a></li>
-                    </ul>
-                    <a href="" class="header__phone">8 800 250-64-69</a>
-                </nav>
-                <div class="header__right-side">
-                    <div class="header__callback">
-                        Заказать звонок
-                    </div>
-
-                    <div class="header__cart">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
-                            <path d="M18.6954 1.28112H15.6291V0H6.3703V1.28107H3.304L1.73835 7.80095H0V12.2422H1.3307L2.81347 22H19.1858L20.6687 12.2422H21.9993V7.80099H20.261L18.6954 1.28112ZM7.65932 1.28902H14.34V2.56215H7.65932V1.28902ZM4.32013 2.5701H6.37034V3.85117H15.6291V2.5701H17.6793L18.9354 7.80095H3.06402L4.32013 2.5701ZM18.0779 20.711H3.92142L2.63451 12.2422H19.3648L18.0779 20.711ZM20.7103 10.9532H1.28902V9.09001H20.7103V10.9532Z" fill="#3A3A3A"/>
-                            <path d="M11.6445 14.0234H10.3555V18.9286H11.6445V14.0234Z" fill="#3A3A3A"/>
-                            <path d="M7.45309 14.0234H6.16406V18.9286H7.45309V14.0234Z" fill="#3A3A3A"/>
-                            <path d="M15.8359 14.0234H14.5469V18.9286H15.8359V14.0234Z" fill="#3A3A3A"/>
-                        </svg>
-                    </div>
-                </div>
-            </div>
-
+<body id="body">
+<header class="header">
+    <div class="header__wrapper wrapper">
+        <div class="header__logo">
+            <a href="/">
+                <img src="assets/img/logo.svg" alt="logo">
+            </a>
         </div>
-    </header>
-    <div class="wrapper">
-        <div class="breadcrumbs">
-            <a href="" class="breadcrumbs__item">Главная</a>
-            <a href="" class="breadcrumbs__item">Гибрид</a>
-            <a href="" class="breadcrumbs__item">Скап 252 СВ</a>
+        <div class="header__center">
+            <div class="header__geo">
+                <img src="assets/img/geo.svg" alt="geolocation">
+                <p class="header__city-title">Воронеж</p>
+            </div>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#" class="nav__item-link nav__item-link_active">Семена</a></li>
+                    <li class="nav__item"><a href="#" class="nav__item-link">О нас</a></li>
+                    <li class="nav__item"><a href="#" class="nav__item-link">Завод</a></li>
+                    <li class="nav__item"><a href="#" class="nav__item-link">Новости</a></li>
+                    <li class="nav__item"><a href="#" class="nav__item-link">Контакты</a></li>
+                </ul>
+                <a href="" class="header__phone">8 800 250-64-69</a>
+            </nav>
+            <div class="header__right-side">
+                <div class="header__callback">
+                    <span class="callback__text">Заказать звонок</span>
+                    <div class="callback__icon">
+                        <img src="assets/img/phone.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="header__cart">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                        <path d="M18.6954 1.28112H15.6291V0H6.3703V1.28107H3.304L1.73835 7.80095H0V12.2422H1.3307L2.81347 22H19.1858L20.6687 12.2422H21.9993V7.80099H20.261L18.6954 1.28112ZM7.65932 1.28902H14.34V2.56215H7.65932V1.28902ZM4.32013 2.5701H6.37034V3.85117H15.6291V2.5701H17.6793L18.9354 7.80095H3.06402L4.32013 2.5701ZM18.0779 20.711H3.92142L2.63451 12.2422H19.3648L18.0779 20.711ZM20.7103 10.9532H1.28902V9.09001H20.7103V10.9532Z" fill="#3A3A3A"/>
+                        <path d="M11.6445 14.0234H10.3555V18.9286H11.6445V14.0234Z" fill="#3A3A3A"/>
+                        <path d="M7.45309 14.0234H6.16406V18.9286H7.45309V14.0234Z" fill="#3A3A3A"/>
+                        <path d="M15.8359 14.0234H14.5469V18.9286H15.8359V14.0234Z" fill="#3A3A3A"/>
+                    </svg>
+                </div>
+                <div class="wrapper__burger" id="burger-icon">
+                    <div class="header__burger-menu"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</header>
+<div class="wrapper">
+    <div class="breadcrumbs">
+        <a href="" class="breadcrumbs__item">Главная</a>
+        <a href="" class="breadcrumbs__item">Гибрид</a>
+        <a href="" class="breadcrumbs__item">Скап 252 СВ</a>
+    </div>
+</div>
+<main>
+    <div class="wrapper main__wrapper">
+        <div class="product main__product">
+            <div class="product__slider">
+                <div class="product__main-slide">
+                    <img src="assets/img/product-image.png" alt="">
+                    <div class="product__slide-title"><span class="product__head-char">С</span><span class="product__head-numbers">252</span></div>
+                </div>
+                <div class="product__slides">
+                    <img src="assets/img/product-mini.png" class="product__slide-mini " alt="">
+                    <img src="assets/img/product-mini.png" class="product__slide-mini product__slide-mini_active" alt="">
+                    <img src="assets/img/product-mini.png" class="product__slide-mini " alt="">
+                    <img src="assets/img/product-mini.png" class="product__slide-mini " alt="">
+                </div>
+            </div>
+            <div class="product__information">
+                <div class="product__title">
+                    <h2>СКАП 252 СВ</h2>
+                </div>
+                <div class="product__description">
+                    Среднеранний, простой гибрид зернового направления. Вегетационный период 110 дней. Оригинатор - ООО "Агроплазма" . Внесен в государственный реестр в 2020 г. Зерно желтое, зубовидное. Высота стебля до 300 см. Высота крепления початка 80-90 см. Масса 1000 зерен 295-302 г. Выход зерна при обмолоте - 80-82 %
+                </div>
+                <div class="product__tags">
+                    <div class="product__tags-title">ФАО: 194</div>
+                    <div class="product__tags-title">Назначение: зерно</div>
+                    <div class="product__tags-title">Группа спелости: раннеспелый</div>
+                </div>
+
+                <form class="form product__form">
+                    <div class="product__processing-method">
+                        <label for="processing-methods">Способ обработки: </label>
+                        <select name="processing-methods">
+                            <option>Фунгицид</option>
+                        </select>
+                    </div>
+                    <div class="product__prices">
+                        <div class="product__price product__price_old">
+                            4 200, 00 ₽
+                        </div>
+                        <div class="product__price product__price_new">
+                            <label for="price">3 000, 00 ₽</label>
+                            <input type="hidden" value="3000" name="price">
+                        </div>
+                    </div>
+                    <div class="product__counter">
+                        <div class="product__quantity-block">
+                            <div class=" product__quantity-item product__quantity_plus">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13" fill="none">
+                                    <path d="M1 8H13" stroke="#B1B1B1" stroke-linecap="round"/>
+                                </svg>
+                            </div>
+                            <input value="1" class="product__quantity-item product__quantity_show">
+                            <div class="product__quantity-item product__quantity_minus">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="count__add">
+                                    <path d="M1 8H15" stroke="#B1B1B1" stroke-linecap="round"></path>
+                                    <path d="M8 15V1" stroke="#B1B1B1" stroke-linecap="round"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <span class="unit">п. е</span>
+                        <button type="submit" class="btn btn-submit product__submit">добавить в заявку</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="information main__information">
+            <div class="wrapper">
+                <div class="information__menu">
+                    <ul class="information__menu-list" id="information__menu-list">
+                        <li class="information__menu-item">
+                            <button class="information__menu-button information__menu-button_active">Рекомендации аграрному</button>
+                        </li>
+                        <li class="information__menu-item">
+                            <button class="information__menu-button">Регионы допуска</button>
+                        </li>
+                        <li class="information__menu-item">
+                            <button class="information__menu-button">Обработка</button>
+                        </li>
+                        <li class="information__menu-item">
+                            <button class="information__menu-button">Упаковка</button>
+                        </li>
+                        <li class="information__menu-item">
+                            <button class="information__menu-button">Доставка</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="information__body">
+                    <h2 class="information__body-title">Рекомендации агроному</h2>
+                    <div class="information__body-description">
+                        <p>
+                            Гибрид СКАП 251 СВ - новейший гибрид российской селекции, созданный на базе НЦ "Сколково". В 2020 г. заводом HYBRID SK произведена первая промышленная партия семян данного гибрида. Полевые испытания гибрида проводились  в 2018-2019 годах на базе крупнейших российских агрохолдингов.
+                        </p>
+                        <p>
+                            По влагоотдаче  и урожайности показал себя на уровне лучших импортных гибридов. Стабильно входил в пятерку лидеров.
+                        </p>
+                        <p>
+                            Оптимальные регионы для выращивания: Воронежская, Белгородская, Курская, Липецкая, Орловская области.
+                        </p>
+                        <p>
+                            Урожайность  зерна при 14% влажности
+                        </p>
+                        <ul class="information__body-productivity productivity__list">
+                            <h4 class="productivity__list-title">2018</h4>
+                            <li class="productivity__list-item">МИРАТОРГ, Белгородская обл. п. Ивня  -  113,6 ц/га</li>
+                            <li class="productivity__list-item">ЧЕРКИЗОВО, Воронежская обл. с. Кучугуры - 100,3 ц/га</li>
+                            <li class="productivity__list-item">ОБОЯНСКОЕ ГСУ, Курская область - 146,1 ц/га</li>
+                        </ul>
+                        <ul class="information__body-productivity productivity__list">
+                            <h4 class="productivity__list-title">2019</h4>
+                            <li class="productivity__list-item">ДОН, Воронежская обл. с. Устье - 147,8 ц/га</li>
+                            <li class="productivity__list-item">МИРАТОРГ, Белгородская обл. п. Ивня  -  94,5 ц/га</li>
+                            <li class="productivity__list-item">ОБОЯНСКОЕ ГСУ, Курская область - 146,1 ц/га</li>
+                            <li class="productivity__list-item">ЧЕРКИЗОВО, Воронежская обл. с. Кучугуры - 100,3 ц/га</li>
+                        </ul>
+                        <p>Устойчив к стеблевой гнили и пузырчатой головне.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <main>
-        <div class="wrapper main__wrapper">
-            <div class="product main__product">
-                <div class="product__slider">
-                    <div class="product__main-slide">
-                        <img src="assets/img/product-image.png" alt="">
-                        <div class="product__slide-title"><span class="product__head-char">С</span><span class="product__head-numbers">252</span></div>
-                    </div>
-                    <div class="product__slides">
-                        <img src="assets/img/product-mini.png" class="product__slide-mini " alt="">
-                        <img src="assets/img/product-mini.png" class="product__slide-mini product__slide-mini_active" alt="">
-                        <img src="assets/img/product-mini.png" class="product__slide-mini " alt="">
-                        <img src="assets/img/product-mini.png" class="product__slide-mini " alt="">
-                    </div>
-                </div>
-                <div class="product__information">
-                    <div class="product__title">
-                        <h2>СКАП 252 СВ</h2>
-                    </div>
-                    <div class="product__description">
-                        Среднеранний, простой гибрид зернового направления. Вегетационный период 110 дней. Оригинатор - ООО "Агроплазма" . Внесен в государственный реестр в 2020 г. Зерно желтое, зубовидное. Высота стебля до 300 см. Высота крепления початка 80-90 см. Масса 1000 зерен 295-302 г. Выход зерна при обмолоте - 80-82 %
-                    </div>
-                    <div class="product__tags">
-                        <div class="product__tags-title">ФАО: 194</div>
-                        <div class="product__tags-title">Назначение: зерно</div>
-                        <div class="product__tags-title">Группа спелости: раннеспелый</div>
-                    </div>
-
-                    <form class="form">
-                        <div class="product__processing-method">
-                            <label for="processing-methods">Способ обработки: </label>
-                            <select name="processing-methods">
-                                <option>Фунгицид</option>
-                            </select>
-                        </div>
-                        <div class="product__prices">
-                            <div class="product__price product__price_old">
-                                4 200, 00 ₽
-                            </div>
-                            <div class="product__price product__price_new">
-                                <label for="price">3 000, 00 ₽</label>
-                                <input type="hidden" value="3000" name="price">
-                            </div>
-                        </div>
-                        <div class="product__counter">
-                            <div class="product__quantity-block">
-                                <div class=" product__quantity-item product__quantity_plus">-</div>
-                                <input value="1" class="product__quantity-item product__quantity_show">
-                                <div class="product__quantity-item product__quantity_minus">+</div>
-                            </div>
-                            <span>п. е</span>
-                            <button type="submit" class="btn btn-submit product__submit">добавить в заявку</button>
-                        </div>
-                    </form>
+</main>
+<footer>
+    <div class="wrapper">
+        <div class="footer__top">
+            <div class="footer__info">
+                <a href="" class="footer__logo-link">
+                    <img src="assets/img/logo.svg" alt="Логотип футер" class="footer__logo-img">
+                </a>
+                <div class="footer__discription">
+                    Мы имеем безупречную деловую репутацию и будем рады видеть Вас в числе наших партнеров.
                 </div>
             </div>
-            <div class="information main__information">
-                <div class="wrapper">
-                    <div class="information__menu">
-                        <ul class="information__menu-list" id="information__menu-list">
-                            <li class="information__menu-item">
-                                <button class="information__menu-button information__menu-button_active">Рекомендации аграрному</button>
-                            </li>
-                            <li class="information__menu-item">
-                                <button class="information__menu-button">Регионы допуска</button>
-                            </li>
-                            <li class="information__menu-item">
-                                <button class="information__menu-button">Обработка</button>
-                            </li>
-                            <li class="information__menu-item">
-                                <button class="information__menu-button">Упаковка</button>
-                            </li>
-                            <li class="information__menu-item">
-                                <button class="information__menu-button">Доставка</button>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="information__body">
-                        <h2 class="information__body-title">Рекомендации агроному</h2>
-                        <div class="information__body-description">
-                            <p>
-                            Гибрид СКАП 251 СВ - новейший гибрид российской селекции, созданный на базе НЦ "Сколково". В 2020 г. заводом HYBRID SK произведена первая промышленная партия семян данного гибрида. Полевые испытания гибрида проводились  в 2018-2019 годах на базе крупнейших российских агрохолдингов.
-                            </p>
-                            <p>
-                            По влагоотдаче  и урожайности показал себя на уровне лучших импортных гибридов. Стабильно входил в пятерку лидеров.
-                            </p>
-                            <p>
-                            Оптимальные регионы для выращивания: Воронежская, Белгородская, Курская, Липецкая, Орловская области.
-                            </p>
-                            <p>
-                            Урожайность  зерна при 14% влажности
-                            </p>
-                            <ul class="information__body-productivity productivity__list">
-                                <h4 class="productivity__list-title">2018</h4>
-                                <li class="productivity__list-item">МИРАТОРГ, Белгородская обл. п. Ивня  -  113,6 ц/га</li>
-                                <li class="productivity__list-item">ЧЕРКИЗОВО, Воронежская обл. с. Кучугуры - 100,3 ц/га</li>
-                                <li class="productivity__list-item">ОБОЯНСКОЕ ГСУ, Курская область - 146,1 ц/га</li>
-                            </ul>
-                            <ul class="information__body-productivity productivity__list">
-                                <h4 class="productivity__list-title">2019</h4>
-                                <li class="productivity__list-item">ДОН, Воронежская обл. с. Устье - 147,8 ц/га</li>
-                                <li class="productivity__list-item">МИРАТОРГ, Белгородская обл. п. Ивня  -  94,5 ц/га</li>
-                                <li class="productivity__list-item">ОБОЯНСКОЕ ГСУ, Курская область - 146,1 ц/га</li>
-                                <li class="productivity__list-item">ЧЕРКИЗОВО, Воронежская обл. с. Кучугуры - 100,3 ц/га</li>
-                            </ul>
-                            <p>Устойчив к стеблевой гнили и пузырчатой головне.</p>
-                        </div>
-                    </div>
+            <div class="footer__mail">
+                <div class="footer__mail-description">
+                    Подпишитесь на нашу рассылку,
+                    и будете в курсе наших последних новостей и цен.
                 </div>
+                <form action="" class="footer__mail-form">
+                    <div class="footer__mail-input">
+                        <input type="text" class="footer__mail-field" required>
+                        <label for="" class="information__mail-label">
+                            <span class="input_requered">*</span>
+                            E-mail
+                        </label>
+                    </div>
+                    <button class="footer__mail-button">ПОДПИСАТЬСЯ</button>
+                </form>
             </div>
         </div>
-    </main>
-    <footer>
-        <div class="wrapper">
-            <div class="footer__top">
-                <div class="footer__info">
-                    <a href="" class="footer__logo-link">
-                        <img src="assets/img/logo.svg" alt="Логотип футер" class="footer__logo-img">
-                    </a>
-                    <div class="footer__discription">
-                        Мы имеем безупречную деловую репутацию и будем рады видеть Вас в числе наших партнеров.
-                    </div>
-                </div>
-                <div class="footer__mail">
-                    <div class="footer__mail-description">
-                        Подпишитесь на нашу рассылку,
-                        и будете в курсе наших последних новостей и цен.
-                    </div>
-                    <form action="" class="footer__mail-form">
-                        <div class="footer__mail-input">
-                            <input type="text" class="footer__mail-field">
-                            <label for="" class="information__mail-label">
-                                <span class="input_requered">*</span>
-                                E-mail
-                            </label>
-                        </div>
-                        <button class="footer__mail-button">ПОДПИСАТЬСЯ</button>
-                    </form>
-                </div>
+        <div class="footer__bottom">
+            <div class="footer__copyright">
+                © 2022 HYBRID SK. Все права защищены.
             </div>
-            <div class="footer-bottom">
-                <div class="footer__copyright">
-                    © 2022 HYBRID SK. Все права защищены.
-                </div>
-                <p class="footer__developer">
-                    Разработано в <a href="https://stebnev-studio.ru/" id="developer">Stebnev-Studio</a>
-                </p>
-            </div>
+            <p class="footer__developer">
+                Разработано в <a href="https://stebnev-studio.ru/" id="developer">Stebnev-Studio</a>
+            </p>
         </div>
-    </footer>
+    </div>
+</footer>
 
-    <script src="assets/js/main.js"></script>
+<script src="assets/js/main.js"></script>
 </body>
 </html>

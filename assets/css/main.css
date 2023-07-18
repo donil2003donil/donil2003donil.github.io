@@ -117,7 +117,7 @@ header {
 }
 .header__logo img {
     min-width: 216.001px;
-    height: 58px;
+
 }
 
 .header__geo{
@@ -135,14 +135,62 @@ header {
     display: flex;
     align-items: center;
 }
+.header__burger-menu{
+    transition: .2s;
+    display: none;
+    width: 23px;
+    height: 1px;
+    background: black;
+}
+.header__burger-menu::after, .header__burger-menu::before{
+    content: "";
+    display: block;
+    transform-origin: center;
+    transition: .2s;
+    width: 23px;
+    height: 1px;
+    background: black;
+    position: absolute;
+}
+.header__burger-menu::after{
+    top: 5px;
+}
+.header__burger-menu::before{
+    bottom: 5px;
 
+}
+.wrapper__burger{
+    position: relative;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 23px;
+    width: 23px;
+}
+.burger_active{
+    background: transparent;
+}
+
+.burger_active::after{
+    top: 10px;
+    transform: rotate(45deg);
+}
+.burger_active::before{
+    top: 10px;
+    transform: rotate(-45deg);
+
+}
 .nav {
     display: flex;
     align-items: center;
     margin-left: 209px;
 }
+.nav_active{
+    right: 0 !important;
+}
 .nav__list{
     display: flex;
+    align-items: center;
     padding: 0;
     margin-right: 229px;
     margin-top: 0;
@@ -150,8 +198,10 @@ header {
 }
 .nav__item {
     display: block;
+    min-width: 45px;
     list-style: none;
     margin-right: 60px;
+
 }
 .nav__item:last-child{
     margin: 0;
@@ -159,23 +209,29 @@ header {
 
 .nav__item-link{
     display: block;
+    width: 100%;
     text-decoration: none;
+    margin-right: 60px;
     color: #3A3A3A;
-    font-family: Roboto, sans-serif;
+    font-family: Roboto;
     font-size: 15px;
-    font-style: normal;
     font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
     text-transform: uppercase;
 }
-
+.nav__item-link:last-child{
+    margin-right: 0;
+}
 .nav__item-link:hover,
 .nav__item-link_active{
     color: #0CAE49;
 }
-
 .header__phone {
     text-decoration: none;
     color: #3A3A3A;
+    width: 137px;
     font-family: Roboto, sans-serif;
     font-size: 18px;
     font-style: normal;
@@ -200,6 +256,18 @@ header {
     margin-right: 88px;
     cursor: pointer;
 }
+.callback__text{
+    display: block;
+    width: 119px;
+    color: #3A3A3A;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+}
+.callback__icon{
+    display: none;
+}
 .header__callback:hover{
     color: #0CAE49;
 }
@@ -218,7 +286,7 @@ header {
     border-radius: 50%;
     position: absolute;
     top: -10px;
-    right: -10px;
+    margin-left: 10px;
     width: 20px;
     height: 20px;
     background: #7E7E7E;
@@ -367,6 +435,9 @@ main{
     padding: 3px 8px 2px 8px;
     margin-right: 10px;
 }
+.product__tags-title:last-child{
+    margin-right: 0;
+}
 
 .product__processing-method{
     display: flex;
@@ -459,7 +530,9 @@ main{
     margin-right: 30px;
 }
 .product__quantity-item{
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 0;
     margin: 0;
     font-family: Roboto;
@@ -472,6 +545,23 @@ main{
     line-height: 50px;
     text-align: center;
 }
+
+.product__quantity-item > .count__remove{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
 .product__quantity_show{
     outline:none;
     outline-offset: 0;
@@ -515,7 +605,7 @@ main{
     position: relative;
     list-style: none;
     margin-right: 50px;
-    height: 38px;
+
 }
 
 .information__menu-list .information__menu-button{
@@ -533,6 +623,8 @@ main{
     line-height: 24px;
     padding-left: 0;
     padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 13px;
 }
 .information__menu-list .information__menu-button::after{
     content: "";
@@ -551,7 +643,7 @@ main{
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     text-transform: uppercase;
 }
 .information__menu-list .information__menu-button_active::after{
@@ -577,6 +669,7 @@ main{
     font-style: normal;
     font-weight: 700;
     margin-bottom: 20px;
+    text-transform: none;
 }
 
 .information__body-description {
@@ -715,6 +808,9 @@ footer{
 .footer__mail-field:focus + .information__mail-label{
     display: none;
 }
+.footer__mail-field:valid + .information__mail-label{
+    display: none;
+}
 .information__mail-label{
     position: absolute;
     font-family: Roboto;
@@ -755,7 +851,7 @@ footer{
     margin-left: 40px;
 }
 
-.footer-bottom {
+.footer__bottom {
     display: flex;
     width: 100%;
     justify-content: space-between;
