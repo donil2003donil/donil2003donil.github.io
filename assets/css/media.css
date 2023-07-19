@@ -662,6 +662,9 @@
     .product__slider{
         width: 596px;
     }
+    .product__slide-mini {
+        width: 126px;
+    }
     .product__main-slide > img{
         display: block;
         width: 100%;

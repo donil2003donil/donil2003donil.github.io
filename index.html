@@ -79,14 +79,14 @@
         <div class="product main__product">
             <div class="product__slider">
                 <div class="product__main-slide">
-                    <img src="assets/img/product-image.png" alt="">
+                    <img src="assets/img/product-image.png"  id="main-slide" alt="">
                     <div class="product__slide-title"><span class="product__head-char">С</span><span class="product__head-numbers">252</span></div>
                 </div>
                 <div class="product__slides">
-                    <img src="assets/img/product-mini.png" class="product__slide-mini " alt="">
-                    <img src="assets/img/product-mini.png" class="product__slide-mini product__slide-mini_active" alt="">
-                    <img src="assets/img/product-mini.png" class="product__slide-mini " alt="">
-                    <img src="assets/img/product-mini.png" class="product__slide-mini " alt="">
+                    <img src="assets/img/product-image.png" class="product__slide-mini product__slide-mini_active" alt="1">
+                    <img src="assets/img/product-mini2.png" class="product__slide-mini" alt="2">
+                    <img src="assets/img/product-mini.png" class="product__slide-mini" alt="3">
+                    <img src="assets/img/product-mini.png" class="product__slide-mini" alt="4">
                 </div>
             </div>
             <div class="product__information">
@@ -144,51 +144,108 @@
                 <div class="information__menu">
                     <ul class="information__menu-list" id="information__menu-list">
                         <li class="information__menu-item">
-                            <button class="information__menu-button information__menu-button_active">Рекомендации аграрному</button>
+                            <button class="information__menu-button information__menu-button_active" information-item="1">Рекомендации аграрному</button>
                         </li>
                         <li class="information__menu-item">
-                            <button class="information__menu-button">Регионы допуска</button>
+                            <button class="information__menu-button" information-item="2">Регионы допуска</button>
                         </li>
                         <li class="information__menu-item">
-                            <button class="information__menu-button">Обработка</button>
+                            <button class="information__menu-button" information-item="3">Обработка</button>
                         </li>
                         <li class="information__menu-item">
-                            <button class="information__menu-button">Упаковка</button>
+                            <button class="information__menu-button" information-item="4">Упаковка</button>
                         </li>
                         <li class="information__menu-item">
-                            <button class="information__menu-button">Доставка</button>
+                            <button class="information__menu-button" information-item="5">Доставка</button>
                         </li>
                     </ul>
                 </div>
-                <div class="information__body">
-                    <h2 class="information__body-title">Рекомендации агроному</h2>
-                    <div class="information__body-description">
-                        <p>
-                            Гибрид СКАП 251 СВ - новейший гибрид российской селекции, созданный на базе НЦ "Сколково". В 2020 г. заводом HYBRID SK произведена первая промышленная партия семян данного гибрида. Полевые испытания гибрида проводились  в 2018-2019 годах на базе крупнейших российских агрохолдингов.
-                        </p>
-                        <p>
-                            По влагоотдаче  и урожайности показал себя на уровне лучших импортных гибридов. Стабильно входил в пятерку лидеров.
-                        </p>
-                        <p>
-                            Оптимальные регионы для выращивания: Воронежская, Белгородская, Курская, Липецкая, Орловская области.
-                        </p>
-                        <p>
-                            Урожайность  зерна при 14% влажности
-                        </p>
-                        <ul class="information__body-productivity productivity__list">
-                            <h4 class="productivity__list-title">2018</h4>
-                            <li class="productivity__list-item">МИРАТОРГ, Белгородская обл. п. Ивня  -  113,6 ц/га</li>
-                            <li class="productivity__list-item">ЧЕРКИЗОВО, Воронежская обл. с. Кучугуры - 100,3 ц/га</li>
-                            <li class="productivity__list-item">ОБОЯНСКОЕ ГСУ, Курская область - 146,1 ц/га</li>
-                        </ul>
-                        <ul class="information__body-productivity productivity__list">
-                            <h4 class="productivity__list-title">2019</h4>
-                            <li class="productivity__list-item">ДОН, Воронежская обл. с. Устье - 147,8 ц/га</li>
-                            <li class="productivity__list-item">МИРАТОРГ, Белгородская обл. п. Ивня  -  94,5 ц/га</li>
-                            <li class="productivity__list-item">ОБОЯНСКОЕ ГСУ, Курская область - 146,1 ц/га</li>
-                            <li class="productivity__list-item">ЧЕРКИЗОВО, Воронежская обл. с. Кучугуры - 100,3 ц/га</li>
-                        </ul>
-                        <p>Устойчив к стеблевой гнили и пузырчатой головне.</p>
+                <div class="information__items">
+                    <div class="information__body information__body_active">
+                        <h2 class="information__body-title">Рекомендации агроному</h2>
+                        <div class="information__body-description">
+                            <p>
+                                Гибрид СКАП 251 СВ - новейший гибрид российской селекции, созданный на базе НЦ "Сколково". В 2020 г. заводом HYBRID SK произведена первая промышленная партия семян данного гибрида. Полевые испытания гибрида проводились  в 2018-2019 годах на базе крупнейших российских агрохолдингов.
+                            </p>
+                            <p>
+                                По влагоотдаче  и урожайности показал себя на уровне лучших импортных гибридов. Стабильно входил в пятерку лидеров.
+                            </p>
+                            <p>
+                                Оптимальные регионы для выращивания: Воронежская, Белгородская, Курская, Липецкая, Орловская области.
+                            </p>
+                            <p>
+                                Урожайность  зерна при 14% влажности
+                            </p>
+                            <ul class="information__body-productivity productivity__list">
+                                <h4 class="productivity__list-title">2018</h4>
+                                <li class="productivity__list-item">МИРАТОРГ, Белгородская обл. п. Ивня  -  113,6 ц/га</li>
+                                <li class="productivity__list-item">ЧЕРКИЗОВО, Воронежская обл. с. Кучугуры - 100,3 ц/га</li>
+                                <li class="productivity__list-item">ОБОЯНСКОЕ ГСУ, Курская область - 146,1 ц/га</li>
+                            </ul>
+                            <ul class="information__body-productivity productivity__list">
+                                <h4 class="productivity__list-title">2019</h4>
+                                <li class="productivity__list-item">ДОН, Воронежская обл. с. Устье - 147,8 ц/га</li>
+                                <li class="productivity__list-item">МИРАТОРГ, Белгородская обл. п. Ивня  -  94,5 ц/га</li>
+                                <li class="productivity__list-item">ОБОЯНСКОЕ ГСУ, Курская область - 146,1 ц/га</li>
+                                <li class="productivity__list-item">ЧЕРКИЗОВО, Воронежская обл. с. Кучугуры - 100,3 ц/га</li>
+                            </ul>
+                            <p>Устойчив к стеблевой гнили и пузырчатой головне.</p>
+                        </div>
+                    </div>
+                    <div class="information__body">
+                        <h2 class="information__body-title">Регионы допуска</h2>
+                        <div class="information__body-description">
+                            <ul class="information__body-regions regions__list">
+                                <li class="productivity__regions-item">Центрально-Черноземный</li>
+                                <li class="productivity__regions-item">Нижневолжский - на зерно</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="information__body">
+                        <h2 class="information__body-title">Обработка</h2>
+                        <div class="information__body-description">
+                            <p>Устойчив к стеблевой гнили и пузырчатой головне.</p>
+                            <ul class="information__body-productivity productivity__list">
+                                <li class="productivity__list-item">фунгицид Максим Квадро (Syngenta)</li>
+                                <li class="productivity__list-item">краска-полимер AREAL - RS18</li>
+                                <li class="productivity__list-item">тальк КС 100</li>
+                                <li class="productivity__list-item">cтимулятор роста</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="information__body">
+                        <h2 class="information__body-title">Упаковка</h2>
+                        <div class="information__body-description">
+                            <p>
+                                Фасовка семян осуществляется в посевных единицах (п.е.).
+                            </p>
+                            <p>
+                                1 п.е. - 80 000 семян упакованных в четырехслойный фирменный бумажный мешок. Этикетка с голограммой имеет уникальный номер и штрих-код.
+                            </p>
+                            <p>
+                                Оптимальные регионы для выращивания: Воронежская, Белгородская, Курская, Липецкая, Орловская области.
+                            </p>
+                            <p>
+                                Возможна поставка семян в фирменных биг-бегах по 30, 40 или 50 п.е. в зависимости от массы 1000 семян.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="information__body">
+                        <h2 class="information__body-title">Доставка</h2>
+                        <div class="information__body-description">
+                            <p>
+                                Доставка не включена в стоимость семян и осуществляется:
+                            </p>
+                            <ul class="information__body-productivity productivity__list">
+                                <h4 class="productivity__list-title">2019</h4>
+                                <li class="productivity__list-item">ДОН, Воронежская обл. с. Устье - 147,8 ц/га</li>
+                                <li class="productivity__list-item">МИРАТОРГ, Белгородская обл. п. Ивня  -  94,5 ц/га</li>
+                                <li class="productivity__list-item">ОБОЯНСКОЕ ГСУ, Курская область - 146,1 ц/га</li>
+                                <li class="productivity__list-item">ЧЕРКИЗОВО, Воронежская обл. с. Кучугуры - 100,3 ц/га</li>
+                            </ul>
+                            <p>Каждая партия семян сопровождается Сертификатом соответствия, Карантинным сертификатом, ТТН, УПД.</p>
+                        </div>
                     </div>
                 </div>
             </div>
