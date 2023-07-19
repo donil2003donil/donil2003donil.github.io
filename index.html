@@ -47,7 +47,7 @@
                 <div class="header__callback">
                     <span class="callback__text">Заказать звонок</span>
                     <div class="callback__icon">
-                        <img src="assets/img/phone.svg" alt="">
+                        <img src="assets/img/phone.svg" alt="phone">
                     </div>
                 </div>
 
@@ -79,14 +79,14 @@
         <div class="product main__product">
             <div class="product__slider">
                 <div class="product__main-slide">
-                    <img src="assets/img/product-image.png"  id="main-slide" alt="">
+                    <img src="assets/img/product-image.png"  id="main-slide" alt="main-slide">
                     <div class="product__slide-title"><span class="product__head-char">С</span><span class="product__head-numbers">252</span></div>
                 </div>
                 <div class="product__slides">
                     <img src="assets/img/product-image.png" class="product__slide-mini product__slide-mini_active" alt="1">
-                    <img src="assets/img/product-mini2.png" class="product__slide-mini" alt="2">
-                    <img src="assets/img/product-mini.png" class="product__slide-mini" alt="3">
-                    <img src="assets/img/product-mini.png" class="product__slide-mini" alt="4">
+                    <img src="assets/img/product-image.png" class="product__slide-mini" alt="2">
+                    <img src="assets/img/product-image.png" class="product__slide-mini" alt="3">
+                    <img src="assets/img/product-image.png" class="product__slide-mini" alt="4">
                 </div>
             </div>
             <div class="product__information">
@@ -106,7 +106,7 @@
                 <form class="form product__form">
                     <div class="product__processing-method">
                         <label for="processing-methods">Способ обработки: </label>
-                        <select name="processing-methods">
+                        <select name="processing-methods" id="processing-methods">
                             <option>Фунгицид</option>
                         </select>
                     </div>
@@ -116,7 +116,7 @@
                         </div>
                         <div class="product__price product__price_new">
                             <label for="price">3 000, 00 ₽</label>
-                            <input type="hidden" value="3000" name="price">
+                            <input type="hidden" value="3000" name="price" id="price">
                         </div>
                     </div>
                     <div class="product__counter">
@@ -126,7 +126,7 @@
                                     <path d="M1 8H13" stroke="#B1B1B1" stroke-linecap="round"/>
                                 </svg>
                             </div>
-                            <input value="1" class="product__quantity-item product__quantity_show">
+                            <input value="1" class="product__quantity-item product__quantity_show" name="count">
                             <div class="product__quantity-item product__quantity_minus">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="count__add">
                                     <path d="M1 8H15" stroke="#B1B1B1" stroke-linecap="round"></path>
@@ -269,8 +269,8 @@
                 </div>
                 <form action="" class="footer__mail-form">
                     <div class="footer__mail-input">
-                        <input type="text" class="footer__mail-field" required>
-                        <label for="" class="information__mail-label">
+                        <input type="email" id="email" name="email" class="footer__mail-field" required>
+                        <label for="email" class="information__mail-label">
                             <span class="input_requered">*</span>
                             E-mail
                         </label>
