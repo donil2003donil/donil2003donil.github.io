@@ -431,6 +431,7 @@
         margin-right: 15px;
         min-width: 107px;
         font-size: 14px;
+        white-space: nowrap;
     }
     .header__callback{
         margin-right: 23px;
@@ -729,6 +730,7 @@
 
     .header__phone {
         margin-top: 50px;
+        white-space: nowrap;
     }
 
     .information__menu-item{
