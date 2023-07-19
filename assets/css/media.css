@@ -775,6 +775,7 @@
         text-wrap: nowrap;
     }
     .information__menu-list{
+        overflow-y: hidden;
         overflow-x: auto;
     }
     .information__menu-list .information__menu-button{
@@ -968,6 +969,7 @@
         height: 100vh;
     }
     .information__menu-list{
+        overflow-y: hidden;
         overflow-x: auto;
     }
     .nav > * {
