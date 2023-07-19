@@ -186,7 +186,7 @@
     .footer__info{
         margin-right: 244px;
     }
-    .footer__discription{
+    .footer__description{
         width: 207px;
         font-family: Roboto;
         font-size: 13px;
@@ -481,7 +481,7 @@
         display: block;
         width: 100%;
     }
-    .footer__discription{
+    .footer__description{
         width: 214px;
         text-align: justify;
         color: #686868;
@@ -766,7 +766,7 @@
         display: block;
         width: 100%;
     }
-    .footer__discription{
+    .footer__description{
         width: 168px;
         text-align: left;
         color: #686868;
@@ -1079,7 +1079,7 @@
         flex-direction: column;
         width: 100%;
     }
-    .footer__discription{
+    .footer__description{
         width: 296px;
         color: #686868;
         font-family: Roboto;
@@ -1407,7 +1407,7 @@ white-space: nowrap;
         width: 100%;
         margin-left: 0 !important;
     }
-    .footer__discription{
+    .footer__description{
         color: #686868;
         font-family: Roboto;
         font-size: 12px;
