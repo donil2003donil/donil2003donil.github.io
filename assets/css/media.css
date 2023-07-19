@@ -377,7 +377,7 @@
         max-width: var(--wrpapper)
     }
 
-    .menu_active > .wrap-body{
+    .menu_active .wrap-body{
         display: block;
         height: 100vh;
         width: 100%;
@@ -666,7 +666,7 @@
         display: block;
         width: 100%;
     }
-    .menu_active > .wrap-body{
+    .menu_active .wrap-body{
         display: block;
         height: 100vh;
         width: 100%;
